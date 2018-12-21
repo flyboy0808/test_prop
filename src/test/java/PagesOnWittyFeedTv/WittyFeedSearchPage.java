@@ -12,7 +12,7 @@ public class WittyFeedSearchPage extends ReportGenerateWittyTest{
 	By SearchOption = By.cssSelector(".searchselect > svg:nth-child(1)");
 	By SearchBox = By.cssSelector("#search");
 	By SearchLinkClick = By.xpath("//*[@id='searchbar']");
-	By SearchHeader = By.xpath("/html/body/app-root/app-category/div/div/div/div/div/div[1]/div/h1");
+	By SearchHeader = By.cssSelector("p.search-heading");
 	By SearchedStoryImage = By.cssSelector("div.row:nth-child(1) > article:nth-child(2) > a:nth-child(1) > div:nth-child(1)");
 	By SearchedStoryTitle = By.cssSelector("div.row:nth-child(1) > article:nth-child(2) > a:nth-child(1) > div:nth-child(2) > h1:nth-child(1)");
 
