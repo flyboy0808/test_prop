@@ -19,7 +19,7 @@ public class WittyFeedUserProfileTestCasesTest extends ReportGenerateWittyTest {
 		ReadPropertiesFileWittyTv readConfigFile = new ReadPropertiesFileWittyTv();
 
 		properties = readConfigFile.LoadPropertiess();
-		driver.get(properties.getProperty("URL"));
+		driver.get("https://www.wittyfeed.tv/you-are-living-under-a-rock-if-you-havent-watched-these-10-web-series-in-2018-72289?utm_source=homepage_latest");
 		driver.manage().window().maximize();
 		test = extent.createTest("Test 122 - Click Author Name");
 		obj.ClickAuthorName(driver);
