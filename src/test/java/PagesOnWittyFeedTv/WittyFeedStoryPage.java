@@ -24,7 +24,7 @@ public class WittyFeedStoryPage {
 	By WhatsappLink = By.cssSelector("div.st-btn:nth-child(4) > span:nth-child(2)");
 	By MessangerappLink = By.cssSelector("div.st-btn:nth-child(5) > span:nth-child(2)");
 	By DirectShare = By.cssSelector("div.st-btn:nth-child(6) > span:nth-child(2)");
-	By StoryContent = By.cssSelector("div.col:nth-child(6) > p:nth-child(1)");
+	By StoryContent = By.cssSelector("div.col:nth-child(5) > p:nth-child(1)");
 		
 	
 
