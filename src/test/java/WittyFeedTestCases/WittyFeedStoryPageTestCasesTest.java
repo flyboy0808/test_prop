@@ -27,12 +27,12 @@ public class WittyFeedStoryPageTestCasesTest extends ReportGenerateWittyTest {
 
 	}
 
-	@Test(priority = 114)
-	public void CheckAdvertisementFrame() throws Exception {
-		test = extent.createTest("Test 114 - Check Advertisement Frame");
-		StoryItem.AdvertisementFrame(driver);
-
-	}
+//	@Test(priority = 114)
+//	public void CheckAdvertisementFrame() throws Exception {
+//		test = extent.createTest("Test 114 - Check Advertisement Frame");
+//		StoryItem.AdvertisementFrame(driver);
+//
+//	}
 
 	@Test(priority = 115)
 	public void CheckStoryAuthor() throws Exception {
@@ -78,4 +78,3 @@ public class WittyFeedStoryPageTestCasesTest extends ReportGenerateWittyTest {
 	}
 
 }
-
