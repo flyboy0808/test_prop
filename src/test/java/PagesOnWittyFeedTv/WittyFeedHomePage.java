@@ -24,27 +24,28 @@ public class WittyFeedHomePage {
 	By InstaLink = By.cssSelector(".right > li:nth-child(2) > a:nth-child(1) > svg:nth-child(1)");
 	By TwitterLink = By.cssSelector(".right > li:nth-child(3) > a:nth-child(1) > svg:nth-child(1) > g:nth-child(1) > g:nth-child(1) > path:nth-child(1)");
 	By FacebookLink = By.cssSelector(".right > li:nth-child(4) > a:nth-child(1) > svg:nth-child(1) > g:nth-child(1) > path:nth-child(1)");
-	By YouTubeLink = By.cssSelector(".right > li:nth-child(5) > a:nth-child(1) > svg:nth-child(1) > g:nth-child(1) > path:nth-child(1)");
-	By FeaturedPostImage = By.cssSelector("div.m8:nth-child(1) > a:nth-child(1) > div:nth-child(1)");
-	By FeaturedPostTitle = By.cssSelector("div.m8:nth-child(1) > h1:nth-child(2) > a:nth-child(1)");
-	By FeaturedPostAuthor = By.cssSelector("div.m8:nth-child(2) > p:nth-child(3) > a:nth-child(2)");
-	By SecondPostImage = By.cssSelector("div.m8:nth-child(2) > a:nth-child(1) > div:nth-child(1)");
-	By SecondPostTitle = By.cssSelector("div.m8:nth-child(2) > h1:nth-child(2) > a:nth-child(1)");
-	By SecondPostAuthor = By.cssSelector("div.m8:nth-child(2) > p:nth-child(3) > a:nth-child(2)");
-	By ThirdPostImage = By.cssSelector("div.m8:nth-child(3) > a:nth-child(1) > div:nth-child(1)");
-	By ThirdPostTitle = By.cssSelector("div.m8:nth-child(3) > h1:nth-child(2) > a:nth-child(1)");
-	By ThirdPostAuthor = By.cssSelector("div.m8:nth-child(3) > p:nth-child(3) > a:nth-child(2)");
-	By LatestStoryImage = By.xpath("/html/body/app-root/app-home/div/div/div[5]/section/div/div/div/div[1]/div/a/div");
-	By LatestStoryTitle = By.cssSelector("div.vtpl_mosaicContainer:nth-child(5) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)");
-	By LatestStoryAuthor = By.cssSelector("div.vtpl_mosaicContainer:nth-child(5) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3) > a:nth-child(2)");
-	By WittyVideo1 = By.cssSelector("div.video-storyCard:nth-child(2) > a:nth-child(1) > div:nth-child(1) > a:nth-child(1)");
-	By WittyVideo2 = By.cssSelector("div.video-storyCard:nth-child(3) > a:nth-child(1) > div:nth-child(1) > a:nth-child(1)");
-	By QuizeFeedImage = By.cssSelector("div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1)");
-	By QuizefeedTitle = By.cssSelector("div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)");
-	By QuizeFeedAuthor = By.cssSelector("div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3) > a:nth-child(2)");
-	By EatSleepReadReaptImage = By.cssSelector("article.col:nth-child(10) > a:nth-child(1) > div:nth-child(1)");
-	By EatSleepReadReaptTitle = By.cssSelector("article.col:nth-child(10) > a:nth-child(1) > div:nth-child(2) > h1:nth-child(1)");
-	By EatSleepReadReaptAuthor = By.cssSelector("article.col:nth-child(10) > address:nth-child(2) > p:nth-child(1) > a:nth-child(2)");
+	By YouTubeLink = By.cssSelector(".right > li:nth-child(4) > a:nth-child(1) > svg:nth-child(1) > g:nth-child(1) > path:nth-child(1)");
+	By FeaturedPostImage = By.cssSelector("#promoted_stories_img_0");
+	By FeaturedPostTitle = By.cssSelector("#promoted_title_0");
+	By FeaturedPostAuthor = By.cssSelector(".l9 > p:nth-child(3) > a:nth-child(2)");
+	
+	By SecondPostImage = By.cssSelector("#promoted_stories_img_1");
+	By SecondPostTitle = By.cssSelector("#promoted_title_1");
+	By SecondPostAuthor = By.cssSelector("div.s6:nth-child(2) > p:nth-child(3) > a:nth-child(2)");
+	By ThirdPostImage = By.cssSelector("#promoted_stories_img_2");
+	By ThirdPostTitle = By.cssSelector("div.l3:nth-child(3) > p:nth-child(2)");
+	By ThirdPostAuthor = By.cssSelector("div.l3:nth-child(3) > p:nth-child(3) > a:nth-child(2)");
+	By LatestStoryImage = By.cssSelector("#hm_ls_1");
+	By LatestStoryTitle = By.cssSelector("div.vtpl_mosaicContainer:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2)");
+	By LatestStoryAuthor = By.cssSelector("#hm_ls_un_1");
+	By WittyVideo1 = By.cssSelector("#hm_vid_1 > a:nth-child(2)");
+	By WittyVideo2 = By.cssSelector("#hm_vid_2 > a:nth-child(2)");
+	By QuizeFeedImage = By.cssSelector("#hm_qf_1");
+	By QuizefeedTitle = By.cssSelector("#hm_qf_t_1");
+	By QuizeFeedAuthor = By.cssSelector("#hm_qf_un_1");
+	By EatSleepReadReaptImage = By.cssSelector("#hm_lm_1");
+	By EatSleepReadReaptTitle = By.cssSelector("#hm_lm_t_1");
+	By EatSleepReadReaptAuthor = By.cssSelector("#hm_lm_un_1");
 	
 
 	WrapperGenericMethod Action = new WrapperGenericMethod();
@@ -300,7 +301,7 @@ public class WittyFeedHomePage {
 
 		int videoFrame = driver.findElements(EatSleepReadReaptAuthor).size();
 
-		Assert.assertEquals(videoFrame, 1);
+		Assert.assertEquals(videoFrame, 2);
 
 	}
 
