@@ -14,7 +14,7 @@ import UtilsOnFeed.WrapperGenericMethod;
 public class WittyFeedUserProfilePage {
 
 	By BackgroundImage = By.cssSelector(".profile-back-overlay");
-    By AuthorName = By.cssSelector("div.m8:nth-child(1) > p:nth-child(3) > a:nth-child(2)");
+    By AuthorName = By.cssSelector(".vtpl-partnerName");
 	By AuthorImage = By.cssSelector(".vtpl-profile-img");
 	By WriterName = By.cssSelector(".vtpl-profile-writerName");
 	By Editor = By.cssSelector(".vtpl-profile-writerEmail");
