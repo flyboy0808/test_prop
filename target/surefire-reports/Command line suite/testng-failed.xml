@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="CheckAuthorName"/>
+          <include name="ClickAuthorName"/>
+          <include name="getResults"/>
+          <include name="tearDown"/>
+          <include name="CheckDontMissThisStory"/>
+          <include name="LatestStories"/>
+          <include name="CheckBackgroundImage"/>
+          <include name="CheckEditor"/>
+          <include name="CheckAuthorImage"/>
+          <include name="CheckWriterName"/>
+          <include name="CheckProfileDesc"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyTagstestcasesTest">
+        <methods>
+          <include name="CheckSearchTags"/>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+          <include name="CheckSearchHeader"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+          <include name="CheckAdvertisementFrame"/>
+          <include name="CheckStoryContent"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+        <methods>
+          <include name="CheckThirdPostImage"/>
+          <include name="CheckThirdPostTitle"/>
+          <include name="CheckQuizeFeedImage"/>
+          <include name="CheckFeaturedPostImage"/>
+          <include name="CheckEatSleepReadReaptTitle"/>
+          <include name="CheckLatestStoryAuthor"/>
+          <include name="CheckSecondPostImage"/>
+          <include name="CheckLatestStoryTitle"/>
+          <include name="CheckWittyVideo1"/>
+          <include name="getResults"/>
+          <include name="CheckEatSleepReadReaptAuthor"/>
+          <include name="CheckEatSleepReadReaptImage"/>
+          <include name="CheckQuizeFeedAuthor"/>
+          <include name="CheckThirdPostAuthor"/>
+          <include name="CheckQuizefeedTitle"/>
+          <include name="CheckSecondPostAuthor"/>
+          <include name="CheckSecondPostTitle"/>
+          <include name="CheckFeaturedPostTitle"/>
+          <include name="CheckWittyVideo2"/>
+          <include name="CheckFeaturedPostAuthor"/>
+          <include name="CheckLatestStoryImage"/>
+          <include name="CheckYouTubeLink"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

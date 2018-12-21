@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ip-10-1-1-254" name="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest" tests="131" failures="34" timestamp="21 Dec 2018 09:18:31 GMT" time="416.924" errors="0">
+  <testcase name="OpenGoogleappsHar_analyzer" time="2.069" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckGMTValue" time="0.048" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkvisit_blockValue" time="0.043" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcountry_codeValue" time="0.039" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checklanguage_EnglishValue" time="0.043" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcategory_peopleValue" time="0.038" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkwriter_nameValue" time="0.036" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkwriter_idValue" time="0.04" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcategory_idValue" time="0.046" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkstory_idValue" time="0.05" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkgoogle_entitiesValue" time="0.038" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkpage_typeValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckcityValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcountry_nameValue" time="0.039" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckfpValue" time="0.04" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkpage_urlValue" time="0.039" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkclient_ipValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkreferral_domainValue" time="0.033" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkdev_sourceValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckPBValue" time="0.038" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkstory_tagsValue" time="0.034" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcurrent_blockValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checktotal_blocksValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckdomainValue" time="0.05" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckadPartnerValue" time="0.045" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckadblockerValue" time="0.055" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckofcValue" time="0.04" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checktotal_adsValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checktree_idValue" time="0.04" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckussValue" time="0.039" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckpidValue" time="0.038" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkinit_story_idValue" time="0.035" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="ClickHamburgerMenu" time="1.329" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckNewsCata" time="1.064" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckNewsSubCata" time="1.04" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckLifeStyleCata" time="1.043" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckLifeStyleSubCata" time="1.051" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckEntertainmentCata" time="1.051" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckEntertainmentSubCata" time="1.027" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckOpinionLink" time="1.039" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckIndiaKaPulseLink" time="1.04" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialImpactLink" time="1.039" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckGirlingLink" time="1.041" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckVideosLink" time="1.039" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckQuizLink" time="1.044" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckNewsPage" time="2.147" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckPoliticsPage" time="2.19" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialPage" time="2.029" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckTrendingPage" time="1.979" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckLifeStylePage" time="2.115" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckHealthPage" time="2.017" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckRelationshipPage" time="2.048" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckTravelPage" time="1.9" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckFashionPage" time="2.021" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckEntertainmentPage" time="1.948" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckBollywoodPage" time="1.984" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialCelebritiesPage" time="2.046" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSportsPage" time="1.944" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckHollywoodPage" time="1.987" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckOpinionPage" time="1.047" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckIndiaKaPulsePage" time="1.038" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialImpactPage" time="1.036" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckGirlingPage" time="1.037" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckVideosPage" time="1.038" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckQuizPage" time="1.033" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="ClickHamburgerMenu" time="0.447" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckAbutUsLink" time="0.019" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckTermsOfUseLink" time="0.016" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckPrivacyPolicyLink" time="0.021" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckCantactUsLink" time="0.019" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckAbutUsPage" time="1.876" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckTermsOfUsePage" time="1.898" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckPrivacyPolicyPage" time="1.844" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckCantactUsPage" time="0.025" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckSearchOption" time="0.408" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckSiteLogo" time="0.018" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckNewsCategories" time="0.015" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckLifeStyleCategories" time="5.019" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckEntertainmentCategories" time="0.014" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckOpinion" time="0.015" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckIndiaKaPulse" time="0.015" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckGirling" time="0.014" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckVideos" time="0.015" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckQuiz" time="0.022" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckInstaLink" time="0.014" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckTwitterLink" time="0.019" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckFacebookLink" time="0.015" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckYouTubeLink" time="10.046" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.YouTubeLink(WittyFeedHomePage.java:135)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckYouTubeLink(WittyFeedHomePageTestcasesTest.java:110)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckFeaturedPostImage" time="10.057" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.FeaturedPostImage(WittyFeedHomePage.java:140)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckFeaturedPostImage(WittyFeedHomePageTestcasesTest.java:116)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckFeaturedPostTitle" time="10.052" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.FeaturedPostTitle(WittyFeedHomePage.java:145)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckFeaturedPostTitle(WittyFeedHomePageTestcasesTest.java:122)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckFeaturedPostAuthor" time="10.039" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.FeaturedPostAuthor(WittyFeedHomePage.java:151)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckFeaturedPostAuthor(WittyFeedHomePageTestcasesTest.java:129)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckSecondPostImage" time="10.038" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.SecondPostImage(WittyFeedHomePage.java:157)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckSecondPostImage(WittyFeedHomePageTestcasesTest.java:135)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckSecondPostTitle" time="10.036" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.SecondPostTitle(WittyFeedHomePage.java:162)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckSecondPostTitle(WittyFeedHomePageTestcasesTest.java:141)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckSecondPostAuthor" time="10.026" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.SecondPostAuthor(WittyFeedHomePage.java:168)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckSecondPostAuthor(WittyFeedHomePageTestcasesTest.java:148)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckThirdPostImage" time="10.033" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.ThirdPostImage(WittyFeedHomePage.java:174)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckThirdPostImage(WittyFeedHomePageTestcasesTest.java:155)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckThirdPostTitle" time="10.034" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.ThirdPostTitle(WittyFeedHomePage.java:179)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckThirdPostTitle(WittyFeedHomePageTestcasesTest.java:161)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckThirdPostAuthor" time="10.036" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.ThirdPostAuthor(WittyFeedHomePage.java:186)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckThirdPostAuthor(WittyFeedHomePageTestcasesTest.java:168)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckLatestStoryImage" time="10.078" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;xpath&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;/html/body/app-root/app-home/div/div/div[5]/section/div/div/div/div[1]/div/a/div&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=xpath, value=/html/body/app-root/app-home/div/div/div[5]/section/div/div/div/div[1]/div/a/div}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-home/div/div/div[5]/section/div/div/div/div[1]/div/a/div"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=xpath, value=/html/body/app-root/app-home/div/div/div[5]/section/div/div/div/div[1]/div/a/div}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.LatestStoryImage(WittyFeedHomePage.java:192)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckLatestStoryImage(WittyFeedHomePageTestcasesTest.java:175)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckLatestStoryTitle" time="10.054" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.vtpl_mosaicContainer:nth-child(5) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(2) &amp;gt; a:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(5) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(2) &amp;gt; a:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.vtpl_mosaicContainer:nth-child(5) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(5) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.LatestStoryTitle(WittyFeedHomePage.java:203)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckLatestStoryTitle(WittyFeedHomePageTestcasesTest.java:182)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckLatestStoryAuthor" time="10.04" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.vtpl_mosaicContainer:nth-child(5) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(3) &amp;gt; a:nth-child(2)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(5) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(3) &amp;gt; a:nth-child(2)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.vtpl_mosaicContainer:nth-child(5) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3) > a:nth-child(2)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(5) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3) > a:nth-child(2)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.LatestStoryAuthor(WittyFeedHomePage.java:214)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckLatestStoryAuthor(WittyFeedHomePageTestcasesTest.java:190)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckWittyVideo1" time="10.029" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.video-storyCard:nth-child(2) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; a:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.video-storyCard:nth-child(2) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; a:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.video-storyCard:nth-child(2) > a:nth-child(1) > div:nth-child(1) > a:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.video-storyCard:nth-child(2) > a:nth-child(1) > div:nth-child(1) > a:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.WittyVideo1(WittyFeedHomePage.java:224)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckWittyVideo1(WittyFeedHomePageTestcasesTest.java:196)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckWittyVideo2" time="10.045" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.video-storyCard:nth-child(3) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; a:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.video-storyCard:nth-child(3) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; a:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.video-storyCard:nth-child(3) > a:nth-child(1) > div:nth-child(1) > a:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.video-storyCard:nth-child(3) > a:nth-child(1) > div:nth-child(1) > a:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.WittyVideo2(WittyFeedHomePage.java:234)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckWittyVideo2(WittyFeedHomePageTestcasesTest.java:203)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckQuizeFeedImage" time="10.053" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.vtpl_mosaicContainer:nth-child(8) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(8) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.QuizeFeedImage(WittyFeedHomePage.java:244)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckQuizeFeedImage(WittyFeedHomePageTestcasesTest.java:210)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckQuizefeedTitle" time="10.045" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.vtpl_mosaicContainer:nth-child(8) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(2) &amp;gt; a:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(8) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(2) &amp;gt; a:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.QuizefeedTitle(WittyFeedHomePage.java:254)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckQuizefeedTitle(WittyFeedHomePageTestcasesTest.java:217)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckQuizeFeedAuthor" time="10.043" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.vtpl_mosaicContainer:nth-child(8) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(3) &amp;gt; a:nth-child(2)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(8) &amp;gt; section:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; div:nth-child(1) &amp;gt; p:nth-child(3) &amp;gt; a:nth-child(2)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3) > a:nth-child(2)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.vtpl_mosaicContainer:nth-child(8) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3) > a:nth-child(2)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.QuizeFeedAuthor(WittyFeedHomePage.java:264)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckQuizeFeedAuthor(WittyFeedHomePageTestcasesTest.java:224)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckEatSleepReadReaptImage" time="10.042" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;article.col:nth-child(10) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=article.col:nth-child(10) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"article.col:nth-child(10) > a:nth-child(1) > div:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=article.col:nth-child(10) > a:nth-child(1) > div:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.EatSleepReadReaptImage(WittyFeedHomePage.java:275)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckEatSleepReadReaptImage(WittyFeedHomePageTestcasesTest.java:231)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckEatSleepReadReaptTitle" time="10.044" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;article.col:nth-child(10) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(2) &amp;gt; h1:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=article.col:nth-child(10) &amp;gt; a:nth-child(1) &amp;gt; div:nth-child(2) &amp;gt; h1:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"article.col:nth-child(10) > a:nth-child(1) > div:nth-child(2) > h1:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=article.col:nth-child(10) > a:nth-child(1) > div:nth-child(2) > h1:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.EatSleepReadReaptTitle(WittyFeedHomePage.java:286)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckEatSleepReadReaptTitle(WittyFeedHomePageTestcasesTest.java:238)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckEatSleepReadReaptAuthor" time="10.045" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;article.col:nth-child(10) &amp;gt; address:nth-child(2) &amp;gt; p:nth-child(1) &amp;gt; a:nth-child(2)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=article.col:nth-child(10) &amp;gt; address:nth-child(2) &amp;gt; p:nth-child(1) &amp;gt; a:nth-child(2)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"article.col:nth-child(10) > address:nth-child(2) > p:nth-child(1) > a:nth-child(2)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=article.col:nth-child(10) > address:nth-child(2) > p:nth-child(1) > a:nth-child(2)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedHomePage.EatSleepReadReaptAuthor(WittyFeedHomePage.java:297)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckEatSleepReadReaptAuthor(WittyFeedHomePageTestcasesTest.java:245)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="ClickSearchOption" time="3.107" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest"/>
+  <testcase name="CheckSearchHeader" time="10.057" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedSearchPage.SearchHeader(WittyFeedSearchPage.java:34)
+	at WittyFeedTestCases.WittyFeedSearchPageTestCasesTest.CheckSearchHeader(WittyFeedSearchPageTestCasesTest.java:33)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckSearchedStoryImage" time="0.016" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest"/>
+  <testcase name="CheckSearchedStoryTitle" time="0.016" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest"/>
+  <testcase name="OpenStoryPage" time="2.597" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckAdvertisementFrame" time="10.046" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedStoryPage.AdvertisementFrame(WittyFeedStoryPage.java:40)
+	at WittyFeedTestCases.WittyFeedStoryPageTestCasesTest.CheckAdvertisementFrame(WittyFeedStoryPageTestCasesTest.java:33)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckStoryAuthor" time="1.074" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryTitle" time="1.039" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryDesc" time="1.042" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryShares" time="1.037" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryShareOptions" time="1.094" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryContent" time="10.043" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.col:nth-child(6) &amp;gt; p:nth-child(1)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.col:nth-child(6) &amp;gt; p:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.col:nth-child(6) > p:nth-child(1)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.col:nth-child(6) > p:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedStoryPage.StoryContent(WittyFeedStoryPage.java:106)
+	at WittyFeedTestCases.WittyFeedStoryPageTestCasesTest.CheckStoryContent(WittyFeedStoryPageTestCasesTest.java:76)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="ClickAuthorName" time="10.514" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.m8:nth-child(1) &amp;gt; p:nth-child(3) &amp;gt; a:nth-child(2)&amp;quot;}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;ip-10-1-1-254&amp;apos;, ip: &amp;apos;10.1.1.254&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.15.0-1029-aws&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.m8:nth-child(1) &amp;gt; p:nth-child(3) &amp;gt; a:nth-child(2)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.m8:nth-child(1) > p:nth-child(3) > a:nth-child(2)"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-1029-aws x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ip-10-1-1-254', ip: '10.1.1.254', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1029-aws', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33255}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.XNwJjF}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4a960d1f98d74fbd3fa5c9f04a6435f4
+*** Element info: {Using=css selector, value=div.m8:nth-child(1) > p:nth-child(3) > a:nth-child(2)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at UtilsOnFeed.WrapperGenericMethod.Click(WrapperGenericMethod.java:12)
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.ClickAuthorName(WittyFeedUserProfilePage.java:32)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.ClickAuthorName(WittyFeedUserProfileTestCasesTest.java:25)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckBackgroundImage" time="10.035" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.BackgroundImage(WittyFeedUserProfilePage.java:40)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckBackgroundImage(WittyFeedUserProfileTestCasesTest.java:33)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckAuthorName" time="10.013" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.AuthorName(WittyFeedUserProfilePage.java:47)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckAuthorName(WittyFeedUserProfileTestCasesTest.java:41)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckAuthorImage" time="10.031" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.AuthorImage(WittyFeedUserProfilePage.java:54)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckAuthorImage(WittyFeedUserProfileTestCasesTest.java:48)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckWriterName" time="10.028" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.WriterName(WittyFeedUserProfilePage.java:61)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckWriterName(WittyFeedUserProfileTestCasesTest.java:56)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckEditor" time="10.038" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.Editor(WittyFeedUserProfilePage.java:68)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckEditor(WittyFeedUserProfileTestCasesTest.java:62)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckProfileDesc" time="10.03" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.ProfileDesc(WittyFeedUserProfilePage.java:94)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckProfileDesc(WittyFeedUserProfileTestCasesTest.java:92)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckDontMissThisStory" time="10.025" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.DontMissThisStory(WittyFeedUserProfilePage.java:101)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckDontMissThisStory(WittyFeedUserProfileTestCasesTest.java:99)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="LatestStories" time="10.028" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.LatestStories(WittyFeedUserProfilePage.java:107)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.LatestStories(WittyFeedUserProfileTestCasesTest.java:107)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckSearchOption" time="0.365" classname="WittyFeedTestCases.WittyTagstestcasesTest"/>
+  <testcase name="CheckSearchTags" time="10.025" classname="WittyFeedTestCases.WittyTagstestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedTagsPage.tags(WittyFeedTagsPage.java:15)
+	at WittyFeedTestCases.WittyTagstestcasesTest.CheckSearchTags(WittyTagstestcasesTest.java:34)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
