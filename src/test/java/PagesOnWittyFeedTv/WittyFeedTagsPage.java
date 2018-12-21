@@ -6,7 +6,7 @@ import org.testng.Assert;
 
 public class WittyFeedTagsPage {
 	
-By tag = By.xpath("/html/body/app-root/app-category/div/div[2]/ul/li[1]/a");
+By tag = By.cssSelector(".vtpl-storyTag-list > li:nth-child(1) > a:nth-child(1)");
 
 
 public void tags(WebDriver driver) {
