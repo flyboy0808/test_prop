@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">107</td><td class="numi">107</td><td class="numi">0</td><td class="numi">0</td><td class="numi">61.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m1"><b>QuizeFeedAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1040</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m2"><b>Checkcurrent_blockValue</b>  </a></td><td class="numi">1</td><td class="numi">35</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m3"><b>CheckVideoPage</b>  </a></td><td class="numi">1</td><td class="numi">2382</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m4"><b>CheckDontMissThisStory</b>  </a></td><td class="numi">1</td><td class="numi">13</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m5"><b>CheckStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">1306</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m6"><b>CheckcityValue</b>  </a></td><td class="numi">1</td><td class="numi">34</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m7"><b>CheckEatSleepReadReaptImage</b>  </a></td><td class="numi">1</td><td class="numi">1047</td></tr>
+<tr class="passedeven"><td rowspan="2">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m8"><b>CheckofcValue</b>  </a></td><td class="numi">1</td><td class="numi">44</td></tr><tr class="passedeven"><td><a href="#m9"><b>Checklanguage_EnglishValue</b>  </a></td><td class="numi">1</td><td class="numi">38</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m10"><b>CheckCantactUsPage</b>  </a></td><td class="numi">1</td><td class="numi">31</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m11"><b>CheckStoryDesc</b>  </a></td><td class="numi">1</td><td class="numi">1065</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m12"><b>CheckadblockerValue</b>  </a></td><td class="numi">1</td><td class="numi">37</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m13"><b>CheckVideoLink</b>  </a></td><td class="numi">1</td><td class="numi">1043</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m14"><b>Checkstory_tagsValue</b>  </a></td><td class="numi">1</td><td class="numi">34</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m15"><b>CheckAdvertisementFrame</b>  </a></td><td class="numi">1</td><td class="numi">151</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.HomePageTestCasesTest<td><a href="#m16"><b>CheckLatestStoryImage</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m17"><b>Checkvideo2</b>  </a></td><td class="numi">1</td><td class="numi">1051</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m18"><b>CheckfpValue</b>  </a></td><td class="numi">1</td><td class="numi">37</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.TagstestcasesTest<td><a href="#m19"><b>CheckSearchTags</b>  </a></td><td class="numi">1</td><td class="numi">19</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m20"><b>CheckQuizeFeedImage</b>  </a></td><td class="numi">1</td><td class="numi">1044</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m21"><b>Checkreferral_domainValue</b>  </a></td><td class="numi">1</td><td class="numi">35</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m22"><b>CheckAbutUsPage</b>  </a></td><td class="numi">1</td><td class="numi">2527</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m23"><b>CheckPeopleCategoriesLink</b>  </a></td><td class="numi">1</td><td class="numi">17</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m24"><b>CheckpidValue</b>  </a></td><td class="numi">1</td><td class="numi">48</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m25"><b>CheckCantactUsLink</b>  </a></td><td class="numi">1</td><td class="numi">29</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m26"><b>Checkclient_ipValue</b>  </a></td><td class="numi">1</td><td class="numi">36</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m27"><b>ClickHamburgerMenu</b>  </a></td><td class="numi">1</td><td class="numi">1581</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m28"><b>CheckGMTValue</b>  </a></td><td class="numi">1</td><td class="numi">58</td></tr>
+<tr class="passedodd"><td rowspan="7">PoppleTestCases.HomePageTestCasesTest<td><a href="#m29"><b>CheckpopularCategoriesLink</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr><tr class="passedodd"><td><a href="#m30"><b>CheckEatSleepReadReaptAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1103</td></tr><tr class="passedodd"><td><a href="#m31"><b>CheckQuizLink</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m32"><b>CheckFacebookLink</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m33"><b>CheckVideosLink</b>  </a></td><td class="numi">1</td><td class="numi">19</td></tr><tr class="passedodd"><td><a href="#m34"><b>CheckQuizefeedTitle</b>  </a></td><td class="numi">1</td><td class="numi">1052</td></tr><tr class="passedodd"><td><a href="#m35"><b>CheckThirdPostImage</b>  </a></td><td class="numi">1</td><td class="numi">20</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m36"><b>Checktotal_blocksValue</b>  </a></td><td class="numi">1</td><td class="numi">35</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m37"><b>CheckAuthorImage</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr><tr class="passedodd"><td><a href="#m38"><b>CheckWriterName</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr>
+<tr class="passedeven"><td rowspan="2">PoppleTestCases.HomePageTestCasesTest<td><a href="#m39"><b>CheckLatestStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">19</td></tr><tr class="passedeven"><td><a href="#m40"><b>CheckFeaturedPostImage</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m41"><b>OpenGoogleappsHar_analyzer</b>  </a></td><td class="numi">1</td><td class="numi">2520</td></tr><tr class="passedodd"><td><a href="#m42"><b>Checkwriter_nameValue</b>  </a></td><td class="numi">1</td><td class="numi">37</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m43"><b>CheckSecondPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m44"><b>CheckSearchedStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m45"><b>CheckThirdPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m46"><b>Checkstory_idValue</b>  </a></td><td class="numi">1</td><td class="numi">49</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m47"><b>OpenStoryPage</b>  </a></td><td class="numi">1</td><td class="numi">2402</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m48"><b>CheckPeoplePage</b>  </a></td><td class="numi">1</td><td class="numi">2318</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m49"><b>Checkvisit_blockValue</b>  </a></td><td class="numi">1</td><td class="numi">37</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m50"><b>CheckSiteLogo</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m51"><b>CheckPrivacyPolicyLink</b>  </a></td><td class="numi">1</td><td class="numi">20</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m52"><b>Checkinit_story_idValue</b>  </a></td><td class="numi">1</td><td class="numi">40</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m53"><b>CheckEditor</b>  </a></td><td class="numi">1</td><td class="numi">24</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m54"><b>CheckPositivePage</b>  </a></td><td class="numi">1</td><td class="numi">2400</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m55"><b>CheckStoryFirstImage</b>  </a></td><td class="numi">1</td><td class="numi">57</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m56"><b>CheckPopularPage</b>  </a></td><td class="numi">1</td><td class="numi">2481</td></tr>
+<tr class="passedeven"><td rowspan="2">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m57"><b>Checkgoogle_entitiesValue</b>  </a></td><td class="numi">1</td><td class="numi">49</td></tr><tr class="passedeven"><td><a href="#m58"><b>CheckdomainValue</b>  </a></td><td class="numi">1</td><td class="numi">39</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m59"><b>CheckSecondPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m60"><b>CheckSearchedStoryImage</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m61"><b>CheckFeaturedPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">21</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m62"><b>Checktotal_adsValue</b>  </a></td><td class="numi">1</td><td class="numi">38</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m63"><b>CheckQuizLink</b>  </a></td><td class="numi">1</td><td class="numi">1048</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m64"><b>CheckTwittLink</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m65"><b>Checkpage_typeValue</b>  </a></td><td class="numi">1</td><td class="numi">44</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m66"><b>CheckPopularCata</b>  </a></td><td class="numi">1</td><td class="numi">1045</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m67"><b>CheckStoryAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1174</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m68"><b>CheckLatestStoryAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1043</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m69"><b>Checktree_idValue</b>  </a></td><td class="numi">1</td><td class="numi">38</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m70"><b>CheckStoryShareOptions</b>  </a></td><td class="numi">1</td><td class="numi">1232</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m71"><b>CheckSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">514</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m72"><b>CheckStoryShares</b>  </a></td><td class="numi">1</td><td class="numi">1068</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m73"><b>CheckTermsOfUseLink</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m74"><b>CheckAuthorName</b>  </a></td><td class="numi">1</td><td class="numi">20</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m75"><b>CheckPositiveCata</b>  </a></td><td class="numi">1</td><td class="numi">1083</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m76"><b>Checkcountry_codeValue</b>  </a></td><td class="numi">1</td><td class="numi">46</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m77"><b>CheckPositiveCategoriesLink</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr>
+<tr class="passedeven"><td rowspan="3">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m78"><b>Checkwriter_idValue</b>  </a></td><td class="numi">1</td><td class="numi">37</td></tr><tr class="passedeven"><td><a href="#m79"><b>Checkdev_sourceValue</b>  </a></td><td class="numi">1</td><td class="numi">35</td></tr><tr class="passedeven"><td><a href="#m80"><b>Checkcountry_nameValue</b>  </a></td><td class="numi">1</td><td class="numi">38</td></tr>
+<tr class="passedodd"><td rowspan="3">PoppleTestCases.HomePageTestCasesTest<td><a href="#m81"><b>CheckTheVideo1</b>  </a></td><td class="numi">1</td><td class="numi">1042</td></tr><tr class="passedodd"><td><a href="#m82"><b>CheckInstaLink</b>  </a></td><td class="numi">1</td><td class="numi">5018</td></tr><tr class="passedodd"><td><a href="#m83"><b>CheckEatSleepReadReaptTitle</b>  </a></td><td class="numi">1</td><td class="numi">1049</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m84"><b>Checkcategory_idValue</b>  </a></td><td class="numi">1</td><td class="numi">33</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m85"><b>CheckYouTubeLink</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m86"><b>ClickHamburgerMenu</b>  </a></td><td class="numi">1</td><td class="numi">606</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m87"><b>CheckSearchHeader</b>  </a></td><td class="numi">1</td><td class="numi">36</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.TagstestcasesTest<td><a href="#m88"><b>CheckSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">614</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m89"><b>CheckThirdPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">17</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m90"><b>ClickSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">3935</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m91"><b>CheckProfileDesc</b>  </a></td><td class="numi">1</td><td class="numi">19</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m92"><b>CheckPBValue</b>  </a></td><td class="numi">1</td><td class="numi">34</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m93"><b>ClickAuthorName</b>  </a></td><td class="numi">1</td><td class="numi">1351</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m94"><b>CheckadPartnerValue</b>  </a></td><td class="numi">1</td><td class="numi">37</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m95"><b>CheckTermsOfUsePage</b>  </a></td><td class="numi">1</td><td class="numi">2199</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m96"><b>CheckBackgroundImage</b>  </a></td><td class="numi">1</td><td class="numi">34</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m97"><b>Checkcategory_peopleValue</b>  </a></td><td class="numi">1</td><td class="numi">39</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m98"><b>CheckQuizPage</b>  </a></td><td class="numi">1</td><td class="numi">2242</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m99"><b>CheckPrivacyPolicyPage</b>  </a></td><td class="numi">1</td><td class="numi">2172</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m100"><b>CheckSecondPostImage</b>  </a></td><td class="numi">1</td><td class="numi">17</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m101"><b>Checkpage_urlValue</b>  </a></td><td class="numi">1</td><td class="numi">38</td></tr><tr class="passedodd"><td><a href="#m102"><b>CheckussValue</b>  </a></td><td class="numi">1</td><td class="numi">35</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m103"><b>CheckFeaturedPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">17</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m104"><b>CheckStoryContent</b>  </a></td><td class="numi">1</td><td class="numi">1080</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m105"><b>CheckAbutUsLink</b>  </a></td><td class="numi">1</td><td class="numi">29</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m106"><b>LatestStories</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m107"><b>CheckpeopleCata</b>  </a></td><td class="numi">1</td><td class="numi">1048</td></tr>
+</table>
+<h1>Command line test</h1>
+<a id="m1"></a><h2>PoppleTestCases.HomePageTestCasesTest:QuizeFeedAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcurrent_blockValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckVideoPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckDontMissThisStory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckcityValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckEatSleepReadReaptImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckofcValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checklanguage_EnglishValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckCantactUsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryDesc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckadblockerValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckVideoLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkstory_tagsValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckAdvertisementFrame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckLatestStoryImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>PoppleTestCases.HomePageTestCasesTest:Checkvideo2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckfpValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>PoppleTestCases.TagstestcasesTest:CheckSearchTags</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckQuizeFeedImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkreferral_domainValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckAbutUsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckPeopleCategoriesLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckpidValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckCantactUsLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkclient_ipValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:ClickHamburgerMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckGMTValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckpopularCategoriesLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckEatSleepReadReaptAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckQuizLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFacebookLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckVideosLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckQuizefeedTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckThirdPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m36"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checktotal_blocksValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m37"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckAuthorImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckWriterName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckLatestStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFeaturedPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:OpenGoogleappsHar_analyzer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkwriter_nameValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSecondPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m44"></a><h2>PoppleTestCases.SearchPageTestCasesTest:CheckSearchedStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckThirdPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkstory_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>PoppleTestCases.StoryPageTestCasesTest:OpenStoryPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m48"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPeoplePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkvisit_blockValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSiteLogo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckPrivacyPolicyLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m52"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkinit_story_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckEditor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPositivePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryFirstImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m56"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPopularPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkgoogle_entitiesValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckdomainValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSecondPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>PoppleTestCases.SearchPageTestCasesTest:CheckSearchedStoryImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m61"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFeaturedPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checktotal_adsValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckQuizLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckTwittLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m65"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkpage_typeValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m66"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPopularCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m67"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m68"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckLatestStoryAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m69"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checktree_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m70"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryShareOptions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m71"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m72"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryShares</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m73"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckTermsOfUseLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m74"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckAuthorName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m75"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPositiveCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m76"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcountry_codeValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m77"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckPositiveCategoriesLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m78"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkwriter_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m79"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkdev_sourceValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m80"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcountry_nameValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m81"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckTheVideo1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m82"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckInstaLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m83"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckEatSleepReadReaptTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m84"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcategory_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m85"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckYouTubeLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m86"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:ClickHamburgerMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m87"></a><h2>PoppleTestCases.SearchPageTestCasesTest:CheckSearchHeader</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m88"></a><h2>PoppleTestCases.TagstestcasesTest:CheckSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m89"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckThirdPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m90"></a><h2>PoppleTestCases.SearchPageTestCasesTest:ClickSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m91"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckProfileDesc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m92"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckPBValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m93"></a><h2>PoppleTestCases.UserProfileTestCasesTest:ClickAuthorName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m94"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckadPartnerValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m95"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckTermsOfUsePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m96"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckBackgroundImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m97"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcategory_peopleValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m98"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckQuizPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m99"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckPrivacyPolicyPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m100"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSecondPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m101"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkpage_urlValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m102"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckussValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m103"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFeaturedPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m104"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryContent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m105"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckAbutUsLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m106"></a><h2>PoppleTestCases.UserProfileTestCasesTest:LatestStories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m107"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckpeopleCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

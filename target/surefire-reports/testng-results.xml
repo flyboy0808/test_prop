@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="107" passed="107">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="61182" started-at="2018-12-21T10:36:22Z" finished-at="2018-12-21T10:37:23Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="61182" started-at="2018-12-21T10:36:22Z" finished-at="2018-12-21T10:37:23Z">
+      <class name="PoppleTestCases.HomePageTestCasesTest">
+        <test-method status="PASS" signature="CheckSearchOption()" name="CheckSearchOption" duration-ms="514" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:52Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchOption STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckSearchOption()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFacebookLink()" name="CheckFacebookLink" duration-ms="16" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:52Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFacebookLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckFacebookLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckInstaLink()" name="CheckInstaLink" duration-ms="5018" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckInstaLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckInstaLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckTwittLink()" name="CheckTwittLink" duration-ms="16" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTwittLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckTwittLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckYouTubeLink()" name="CheckYouTubeLink" duration-ms="15" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckYouTubeLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckYouTubeLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSiteLogo()" name="CheckSiteLogo" duration-ms="16" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckPositiveCategoriesLink()" name="CheckPositiveCategoriesLink" duration-ms="16" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSiteLogo STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckSiteLogo()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPositiveCategoriesLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckPositiveCategoriesLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckpopularCategoriesLink()" name="CheckpopularCategoriesLink" duration-ms="18" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckpopularCategoriesLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckpopularCategoriesLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPeopleCategoriesLink()" name="CheckPeopleCategoriesLink" duration-ms="17" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPeopleCategoriesLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckPeopleCategoriesLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckVideosLink()" name="CheckVideosLink" duration-ms="19" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckVideosLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckVideosLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizLink()" name="CheckQuizLink" duration-ms="16" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizLink STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckQuizLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostImage()" name="CheckFeaturedPostImage" duration-ms="18" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFeaturedPostImage STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckFeaturedPostImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostTitle()" name="CheckFeaturedPostTitle" duration-ms="21" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFeaturedPostTitle STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckFeaturedPostTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostAuthor()" name="CheckFeaturedPostAuthor" duration-ms="17" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFeaturedPostAuthor STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckFeaturedPostAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostImage()" name="CheckSecondPostImage" duration-ms="17" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSecondPostImage STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckSecondPostImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostTitle()" name="CheckSecondPostTitle" duration-ms="15" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSecondPostTitle STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckSecondPostTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostAuthor()" name="CheckSecondPostAuthor" duration-ms="18" started-at="2018-12-21T10:36:57Z" finished-at="2018-12-21T10:36:58Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostImage()" name="CheckThirdPostImage" duration-ms="20" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSecondPostAuthor STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckSecondPostAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckThirdPostImage STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckThirdPostImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostTitle()" name="CheckThirdPostTitle" duration-ms="18" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckThirdPostTitle STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckThirdPostTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostAuthor()" name="CheckThirdPostAuthor" duration-ms="17" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckThirdPostAuthor STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckThirdPostAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryImage()" name="CheckLatestStoryImage" duration-ms="16" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLatestStoryImage STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckLatestStoryImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryTitle()" name="CheckLatestStoryTitle" duration-ms="19" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLatestStoryTitle STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckLatestStoryTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryAuthor()" name="CheckLatestStoryAuthor" duration-ms="1043" started-at="2018-12-21T10:36:58Z" finished-at="2018-12-21T10:36:59Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:59Z" finished-at="2018-12-21T10:36:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLatestStoryAuthor STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckLatestStoryAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckTheVideo1()" name="CheckTheVideo1" duration-ms="1042" started-at="2018-12-21T10:36:59Z" finished-at="2018-12-21T10:37:00Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:00Z" finished-at="2018-12-21T10:37:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTheVideo1 STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckTheVideo1()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkvideo2()" name="Checkvideo2" duration-ms="1051" started-at="2018-12-21T10:37:00Z" finished-at="2018-12-21T10:37:01Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizeFeedImage()" name="CheckQuizeFeedImage" duration-ms="1044" started-at="2018-12-21T10:37:01Z" finished-at="2018-12-21T10:37:02Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:01Z" finished-at="2018-12-21T10:37:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkvideo2 STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.Checkvideo2()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:02Z" finished-at="2018-12-21T10:37:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizeFeedImage STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckQuizeFeedImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizefeedTitle()" name="CheckQuizefeedTitle" duration-ms="1052" started-at="2018-12-21T10:37:02Z" finished-at="2018-12-21T10:37:03Z">
+        </test-method>
+        <test-method status="PASS" signature="QuizeFeedAuthor()" name="QuizeFeedAuthor" duration-ms="1040" started-at="2018-12-21T10:37:03Z" finished-at="2018-12-21T10:37:04Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:03Z" finished-at="2018-12-21T10:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizefeedTitle STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckQuizefeedTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:04Z" finished-at="2018-12-21T10:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: QuizeFeedAuthor STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.QuizeFeedAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptImage()" name="CheckEatSleepReadReaptImage" duration-ms="1047" started-at="2018-12-21T10:37:04Z" finished-at="2018-12-21T10:37:05Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptTitle()" name="CheckEatSleepReadReaptTitle" duration-ms="1049" started-at="2018-12-21T10:37:05Z" finished-at="2018-12-21T10:37:06Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:05Z" finished-at="2018-12-21T10:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEatSleepReadReaptImage STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckEatSleepReadReaptImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:06Z" finished-at="2018-12-21T10:37:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEatSleepReadReaptTitle STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckEatSleepReadReaptTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptAuthor()" name="CheckEatSleepReadReaptAuthor" duration-ms="1103" started-at="2018-12-21T10:37:06Z" finished-at="2018-12-21T10:37:07Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:07Z" finished-at="2018-12-21T10:37:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEatSleepReadReaptAuthor STATUS:SUCCESS METHOD:PoppleTestCases.HomePageTestCasesTest.CheckEatSleepReadReaptAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="PoppleTestCases.StoryPageTestCasesTest">
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="1154" started-at="2018-12-21T10:36:20Z" finished-at="2018-12-21T10:36:22Z">
+        </test-method>
+        <test-method status="PASS" signature="OpenStoryPage()" name="OpenStoryPage" duration-ms="2402" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:13Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckAdvertisementFrame()" name="CheckAdvertisementFrame" duration-ms="151" started-at="2018-12-21T10:37:13Z" finished-at="2018-12-21T10:37:14Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:13Z" finished-at="2018-12-21T10:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: OpenStoryPage STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.OpenStoryPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:14Z" finished-at="2018-12-21T10:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAdvertisementFrame STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckAdvertisementFrame()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryFirstImage()" name="CheckStoryFirstImage" duration-ms="57" started-at="2018-12-21T10:37:14Z" finished-at="2018-12-21T10:37:14Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryAuthor()" name="CheckStoryAuthor" duration-ms="1174" started-at="2018-12-21T10:37:14Z" finished-at="2018-12-21T10:37:15Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:14Z" finished-at="2018-12-21T10:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryFirstImage STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryFirstImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:15Z" finished-at="2018-12-21T10:37:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryAuthor STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryTitle()" name="CheckStoryTitle" duration-ms="1306" started-at="2018-12-21T10:37:15Z" finished-at="2018-12-21T10:37:16Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:16Z" finished-at="2018-12-21T10:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryTitle STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryDesc()" name="CheckStoryDesc" duration-ms="1065" started-at="2018-12-21T10:37:16Z" finished-at="2018-12-21T10:37:17Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:17Z" finished-at="2018-12-21T10:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryDesc STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryDesc()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryShares()" name="CheckStoryShares" duration-ms="1068" started-at="2018-12-21T10:37:17Z" finished-at="2018-12-21T10:37:18Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:18Z" finished-at="2018-12-21T10:37:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryShares STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryShares()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryShareOptions()" name="CheckStoryShareOptions" duration-ms="1232" started-at="2018-12-21T10:37:18Z" finished-at="2018-12-21T10:37:20Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:20Z" finished-at="2018-12-21T10:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryShareOptions STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryShareOptions()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryContent()" name="CheckStoryContent" duration-ms="1080" started-at="2018-12-21T10:37:20Z" finished-at="2018-12-21T10:37:21Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:21Z" finished-at="2018-12-21T10:37:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryContent STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryContent()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="345" started-at="2018-12-21T10:37:23Z" finished-at="2018-12-21T10:37:23Z">
+        </test-method>
+      </class>
+      <class name="PoppleTestCases.SearchPageTestCasesTest">
+        <test-method status="PASS" signature="ClickSearchOption()" name="ClickSearchOption" duration-ms="3935" started-at="2018-12-21T10:37:07Z" finished-at="2018-12-21T10:37:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickSearchOption STATUS:SUCCESS METHOD:PoppleTestCases.SearchPageTestCasesTest.ClickSearchOption()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchHeader()" name="CheckSearchHeader" duration-ms="36" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchHeader STATUS:SUCCESS METHOD:PoppleTestCases.SearchPageTestCasesTest.CheckSearchHeader()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchedStoryImage()" name="CheckSearchedStoryImage" duration-ms="27" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchedStoryImage STATUS:SUCCESS METHOD:PoppleTestCases.SearchPageTestCasesTest.CheckSearchedStoryImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchedStoryTitle()" name="CheckSearchedStoryTitle" duration-ms="16" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:11Z" finished-at="2018-12-21T10:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchedStoryTitle STATUS:SUCCESS METHOD:PoppleTestCases.SearchPageTestCasesTest.CheckSearchedStoryTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest">
+        <test-method status="PASS" signature="OpenGoogleappsHar_analyzer()" name="OpenGoogleappsHar_analyzer" duration-ms="2520" started-at="2018-12-21T10:36:22Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="14" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: OpenGoogleappsHar_analyzer STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.OpenGoogleappsHar_analyzer()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckGMTValue()" name="CheckGMTValue" duration-ms="58" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckGMTValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckGMTValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkvisit_blockValue()" name="Checkvisit_blockValue" duration-ms="37" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkvisit_blockValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkvisit_blockValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcountry_codeValue()" name="Checkcountry_codeValue" duration-ms="46" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcountry_codeValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcountry_codeValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checklanguage_EnglishValue()" name="Checklanguage_EnglishValue" duration-ms="38" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checklanguage_EnglishValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checklanguage_EnglishValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcategory_peopleValue()" name="Checkcategory_peopleValue" duration-ms="39" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcategory_peopleValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcategory_peopleValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkwriter_nameValue()" name="Checkwriter_nameValue" duration-ms="37" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkwriter_nameValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkwriter_nameValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkwriter_idValue()" name="Checkwriter_idValue" duration-ms="37" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkwriter_idValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkwriter_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcategory_idValue()" name="Checkcategory_idValue" duration-ms="33" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkstory_idValue()" name="Checkstory_idValue" duration-ms="49" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:24Z" finished-at="2018-12-21T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcategory_idValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcategory_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkstory_idValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkstory_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkgoogle_entitiesValue()" name="Checkgoogle_entitiesValue" duration-ms="49" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkpage_typeValue()" name="Checkpage_typeValue" duration-ms="44" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkgoogle_entitiesValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkgoogle_entitiesValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkpage_typeValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkpage_typeValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckcityValue()" name="CheckcityValue" duration-ms="34" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkcountry_nameValue()" name="Checkcountry_nameValue" duration-ms="38" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckcityValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckcityValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcountry_nameValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcountry_nameValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckfpValue()" name="CheckfpValue" duration-ms="37" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckfpValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckfpValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkpage_urlValue()" name="Checkpage_urlValue" duration-ms="38" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkpage_urlValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkpage_urlValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkclient_ipValue()" name="Checkclient_ipValue" duration-ms="36" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkreferral_domainValue()" name="Checkreferral_domainValue" duration-ms="35" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkclient_ipValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkclient_ipValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkdev_sourceValue()" name="Checkdev_sourceValue" duration-ms="35" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkreferral_domainValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkreferral_domainValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkdev_sourceValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkdev_sourceValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPBValue()" name="CheckPBValue" duration-ms="34" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPBValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckPBValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkstory_tagsValue()" name="Checkstory_tagsValue" duration-ms="34" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkstory_tagsValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkstory_tagsValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcurrent_blockValue()" name="Checkcurrent_blockValue" duration-ms="35" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcurrent_blockValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcurrent_blockValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checktotal_blocksValue()" name="Checktotal_blocksValue" duration-ms="35" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckdomainValue()" name="CheckdomainValue" duration-ms="39" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checktotal_blocksValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktotal_blocksValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckadPartnerValue()" name="CheckadPartnerValue" duration-ms="37" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckdomainValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckdomainValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckadblockerValue()" name="CheckadblockerValue" duration-ms="37" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckadPartnerValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckadPartnerValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckadblockerValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckadblockerValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckofcValue()" name="CheckofcValue" duration-ms="44" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckofcValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckofcValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checktotal_adsValue()" name="Checktotal_adsValue" duration-ms="38" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="Checktree_idValue()" name="Checktree_idValue" duration-ms="38" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checktotal_adsValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktotal_adsValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checktree_idValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktree_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckussValue()" name="CheckussValue" duration-ms="35" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckussValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckussValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckpidValue()" name="CheckpidValue" duration-ms="48" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkinit_story_idValue()" name="Checkinit_story_idValue" duration-ms="40" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckpidValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckpidValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="2" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkinit_story_idValue STATUS:SUCCESS METHOD:PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkinit_story_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="PoppleTestCases.CatagoriesPageTestCasesTest">
+        <test-method status="PASS" signature="ClickHamburgerMenu()" name="ClickHamburgerMenu" duration-ms="1581" started-at="2018-12-21T10:36:25Z" finished-at="2018-12-21T10:36:27Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:27Z" finished-at="2018-12-21T10:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickHamburgerMenu STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.ClickHamburgerMenu()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPositiveCata()" name="CheckPositiveCata" duration-ms="1083" started-at="2018-12-21T10:36:27Z" finished-at="2018-12-21T10:36:28Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:28Z" finished-at="2018-12-21T10:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPositiveCata STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckPositiveCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPopularCata()" name="CheckPopularCata" duration-ms="1045" started-at="2018-12-21T10:36:28Z" finished-at="2018-12-21T10:36:29Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:29Z" finished-at="2018-12-21T10:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPopularCata STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckPopularCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckpeopleCata()" name="CheckpeopleCata" duration-ms="1048" started-at="2018-12-21T10:36:29Z" finished-at="2018-12-21T10:36:30Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckVideoLink()" name="CheckVideoLink" duration-ms="1043" started-at="2018-12-21T10:36:30Z" finished-at="2018-12-21T10:36:31Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:30Z" finished-at="2018-12-21T10:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckpeopleCata STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckpeopleCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:31Z" finished-at="2018-12-21T10:36:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckVideoLink STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckVideoLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizLink()" name="CheckQuizLink" duration-ms="1048" started-at="2018-12-21T10:36:31Z" finished-at="2018-12-21T10:36:32Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckPositivePage()" name="CheckPositivePage" duration-ms="2400" started-at="2018-12-21T10:36:32Z" finished-at="2018-12-21T10:36:35Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:32Z" finished-at="2018-12-21T10:36:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizLink STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckQuizLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPopularPage()" name="CheckPopularPage" duration-ms="2481" started-at="2018-12-21T10:36:35Z" finished-at="2018-12-21T10:36:37Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:35Z" finished-at="2018-12-21T10:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPositivePage STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckPositivePage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:37Z" finished-at="2018-12-21T10:36:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPopularPage STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckPopularPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPeoplePage()" name="CheckPeoplePage" duration-ms="2318" started-at="2018-12-21T10:36:37Z" finished-at="2018-12-21T10:36:39Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:39Z" finished-at="2018-12-21T10:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPeoplePage STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckPeoplePage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckVideoPage()" name="CheckVideoPage" duration-ms="2382" started-at="2018-12-21T10:36:39Z" finished-at="2018-12-21T10:36:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:42Z" finished-at="2018-12-21T10:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckVideoPage STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckVideoPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizPage()" name="CheckQuizPage" duration-ms="2242" started-at="2018-12-21T10:36:42Z" finished-at="2018-12-21T10:36:44Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:44Z" finished-at="2018-12-21T10:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizPage STATUS:SUCCESS METHOD:PoppleTestCases.CatagoriesPageTestCasesTest.CheckQuizPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="PoppleTestCases.UserProfileTestCasesTest">
+        <test-method status="PASS" signature="ClickAuthorName()" name="ClickAuthorName" duration-ms="1351" started-at="2018-12-21T10:37:21Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickAuthorName STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.ClickAuthorName()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckBackgroundImage()" name="CheckBackgroundImage" duration-ms="34" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckAuthorName()" name="CheckAuthorName" duration-ms="20" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckBackgroundImage STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.CheckBackgroundImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAuthorName STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.CheckAuthorName()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckAuthorImage()" name="CheckAuthorImage" duration-ms="18" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAuthorImage STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.CheckAuthorImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckWriterName()" name="CheckWriterName" duration-ms="15" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckWriterName STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.CheckWriterName()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckEditor()" name="CheckEditor" duration-ms="24" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEditor STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.CheckEditor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckProfileDesc()" name="CheckProfileDesc" duration-ms="19" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckProfileDesc STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.CheckProfileDesc()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckDontMissThisStory()" name="CheckDontMissThisStory" duration-ms="13" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDontMissThisStory STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.CheckDontMissThisStory()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="LatestStories()" name="LatestStories" duration-ms="15" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: LatestStories STATUS:SUCCESS METHOD:PoppleTestCases.UserProfileTestCasesTest.LatestStories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="PoppleTestCases.FooterOptionTestCasesTest">
+        <test-method status="PASS" signature="ClickHamburgerMenu()" name="ClickHamburgerMenu" duration-ms="606" started-at="2018-12-21T10:36:44Z" finished-at="2018-12-21T10:36:45Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickHamburgerMenu STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.ClickHamburgerMenu()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckAbutUsLink()" name="CheckAbutUsLink" duration-ms="29" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckTermsOfUseLink()" name="CheckTermsOfUseLink" duration-ms="25" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAbutUsLink STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckAbutUsLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPrivacyPolicyLink()" name="CheckPrivacyPolicyLink" duration-ms="20" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTermsOfUseLink STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckTermsOfUseLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckCantactUsLink()" name="CheckCantactUsLink" duration-ms="29" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPrivacyPolicyLink STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckPrivacyPolicyLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckCantactUsLink STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckCantactUsLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckAbutUsPage()" name="CheckAbutUsPage" duration-ms="2527" started-at="2018-12-21T10:36:45Z" finished-at="2018-12-21T10:36:47Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckTermsOfUsePage()" name="CheckTermsOfUsePage" duration-ms="2199" started-at="2018-12-21T10:36:47Z" finished-at="2018-12-21T10:36:49Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:47Z" finished-at="2018-12-21T10:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAbutUsPage STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckAbutUsPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:49Z" finished-at="2018-12-21T10:36:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTermsOfUsePage STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckTermsOfUsePage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPrivacyPolicyPage()" name="CheckPrivacyPolicyPage" duration-ms="2172" started-at="2018-12-21T10:36:49Z" finished-at="2018-12-21T10:36:52Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckCantactUsPage()" name="CheckCantactUsPage" duration-ms="31" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:52Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPrivacyPolicyPage STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckPrivacyPolicyPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:36:52Z" finished-at="2018-12-21T10:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckCantactUsPage STATUS:SUCCESS METHOD:PoppleTestCases.FooterOptionTestCasesTest.CheckCantactUsPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="PoppleTestCases.TagstestcasesTest">
+        <test-method status="PASS" signature="CheckSearchOption()" name="CheckSearchOption" duration-ms="614" started-at="2018-12-21T10:37:22Z" finished-at="2018-12-21T10:37:23Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchTags()" name="CheckSearchTags" duration-ms="19" started-at="2018-12-21T10:37:23Z" finished-at="2018-12-21T10:37:23Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2018-12-21T10:37:23Z" finished-at="2018-12-21T10:37:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchOption STATUS:SUCCESS METHOD:PoppleTestCases.TagstestcasesTest.CheckSearchOption()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2018-12-21T10:37:23Z" finished-at="2018-12-21T10:37:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchTags STATUS:SUCCESS METHOD:PoppleTestCases.TagstestcasesTest.CheckSearchTags()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
