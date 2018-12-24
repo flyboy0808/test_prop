@@ -23,9 +23,9 @@ public class ReportGenerateTest {
 	public static ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	public static ExtentTest test;
-	public static WebDriver driver;
+	//public static WebDriver driver;
 	
-	//public static ChromeDriver webdriver;
+	public static ChromeDriver driver;
  
   @BeforeSuite
   public void Setup() {
