@@ -73,8 +73,8 @@ public class ReportGenerateTest {
 		    
 		//	System.setProperty("webdriver.chrome.driver","chromedriver");
 		//	driver = new ChromeDriver();
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().window().maximize();
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
   
   
