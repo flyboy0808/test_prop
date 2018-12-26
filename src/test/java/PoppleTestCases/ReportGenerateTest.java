@@ -34,7 +34,7 @@ public class ReportGenerateTest {
 	  		//For Ubuntu
 	  		htmlReporter = new ExtentHtmlReporter("ThePoppleTestResult-Automation.html");
 	  
-	  		// For windows test it 2
+	  		// For windows test it 277467854789
 		  //  htmlReporter = new ExtentHtmlReporter(("/home/wittyfeed/extentReports")+"/WebsiteTestResult-Automati.html");
 		    extent = new ExtentReports();
 		    extent.attachReporter(htmlReporter);
