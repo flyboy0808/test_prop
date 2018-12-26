@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="Default test" preserve-order="false">
+    <classes>
+<!--       <class name="PopplePages.PoppleHomePage"/> -->
+      <class name="PoppleTestCases.ReportGenerateTest"/>
+      <class name="PoppleTestCases.CatagoriesPageTestCasesTest"/>
+      <class name="PoppleTestCases.ReadingHARdataTest"/>
+      <class name="PoppleTestCases.HomePageTestCasesTest"/>
+      <class name="PoppleTestCases.StoryPageTestCasesTest"/>
+      <class name="PoppleTestCases.FooterOptionTestCasesTest"/>
+      <class name="PopplePages.CaptureHttpsTraffic"/>
+<!--       <class name="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest"/> -->
+    </classes>
+  </test>
+</suite>

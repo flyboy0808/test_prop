@@ -1,0 +1,614 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>107/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 21 10:36:22 UTC 2018</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61182 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckAbutUsLink()'><b>CheckAbutUsLink</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckAbutUsPage()'><b>CheckAbutUsPage</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckAdvertisementFrame()'><b>CheckAdvertisementFrame</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.CheckAuthorImage()'><b>CheckAuthorImage</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.CheckAuthorName()'><b>CheckAuthorName</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.CheckBackgroundImage()'><b>CheckBackgroundImage</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckCantactUsLink()'><b>CheckCantactUsLink</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckCantactUsPage()'><b>CheckCantactUsPage</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.CheckDontMissThisStory()'><b>CheckDontMissThisStory</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckEatSleepReadReaptAuthor()'><b>CheckEatSleepReadReaptAuthor</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckEatSleepReadReaptImage()'><b>CheckEatSleepReadReaptImage</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckEatSleepReadReaptTitle()'><b>CheckEatSleepReadReaptTitle</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.CheckEditor()'><b>CheckEditor</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckFacebookLink()'><b>CheckFacebookLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckFeaturedPostAuthor()'><b>CheckFeaturedPostAuthor</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckFeaturedPostImage()'><b>CheckFeaturedPostImage</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckFeaturedPostTitle()'><b>CheckFeaturedPostTitle</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckGMTValue()'><b>CheckGMTValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckInstaLink()'><b>CheckInstaLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>5</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckLatestStoryAuthor()'><b>CheckLatestStoryAuthor</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckLatestStoryImage()'><b>CheckLatestStoryImage</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckLatestStoryTitle()'><b>CheckLatestStoryTitle</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckPBValue()'><b>CheckPBValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckPeopleCategoriesLink()'><b>CheckPeopleCategoriesLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckPeoplePage()'><b>CheckPeoplePage</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckPopularCata()'><b>CheckPopularCata</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckPopularPage()'><b>CheckPopularPage</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckPositiveCata()'><b>CheckPositiveCata</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckPositiveCategoriesLink()'><b>CheckPositiveCategoriesLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckPositivePage()'><b>CheckPositivePage</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckPrivacyPolicyLink()'><b>CheckPrivacyPolicyLink</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckPrivacyPolicyPage()'><b>CheckPrivacyPolicyPage</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.CheckProfileDesc()'><b>CheckProfileDesc</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckQuizLink()'><b>CheckQuizLink</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckQuizLink()'><b>CheckQuizLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckQuizPage()'><b>CheckQuizPage</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckQuizeFeedImage()'><b>CheckQuizeFeedImage</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckQuizefeedTitle()'><b>CheckQuizefeedTitle</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.SearchPageTestCasesTest.CheckSearchHeader()'><b>CheckSearchHeader</b><br>Test class: PoppleTestCases.SearchPageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.SearchPageTestCasesTest@39aeed2f</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckSearchOption()'><b>CheckSearchOption</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.TagstestcasesTest.CheckSearchOption()'><b>CheckSearchOption</b><br>Test class: PoppleTestCases.TagstestcasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TagstestcasesTest@4678c730</td></tr>
+<tr>
+<td title='PoppleTestCases.TagstestcasesTest.CheckSearchTags()'><b>CheckSearchTags</b><br>Test class: PoppleTestCases.TagstestcasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TagstestcasesTest@4678c730</td></tr>
+<tr>
+<td title='PoppleTestCases.SearchPageTestCasesTest.CheckSearchedStoryImage()'><b>CheckSearchedStoryImage</b><br>Test class: PoppleTestCases.SearchPageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.SearchPageTestCasesTest@39aeed2f</td></tr>
+<tr>
+<td title='PoppleTestCases.SearchPageTestCasesTest.CheckSearchedStoryTitle()'><b>CheckSearchedStoryTitle</b><br>Test class: PoppleTestCases.SearchPageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.SearchPageTestCasesTest@39aeed2f</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckSecondPostAuthor()'><b>CheckSecondPostAuthor</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckSecondPostImage()'><b>CheckSecondPostImage</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckSecondPostTitle()'><b>CheckSecondPostTitle</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckSiteLogo()'><b>CheckSiteLogo</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckStoryAuthor()'><b>CheckStoryAuthor</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckStoryContent()'><b>CheckStoryContent</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckStoryDesc()'><b>CheckStoryDesc</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckStoryFirstImage()'><b>CheckStoryFirstImage</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckStoryShareOptions()'><b>CheckStoryShareOptions</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckStoryShares()'><b>CheckStoryShares</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.CheckStoryTitle()'><b>CheckStoryTitle</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckTermsOfUseLink()'><b>CheckTermsOfUseLink</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.CheckTermsOfUsePage()'><b>CheckTermsOfUsePage</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckTheVideo1()'><b>CheckTheVideo1</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckThirdPostAuthor()'><b>CheckThirdPostAuthor</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckThirdPostImage()'><b>CheckThirdPostImage</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckThirdPostTitle()'><b>CheckThirdPostTitle</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckTwittLink()'><b>CheckTwittLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckVideoLink()'><b>CheckVideoLink</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckVideoPage()'><b>CheckVideoPage</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckVideosLink()'><b>CheckVideosLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.CheckWriterName()'><b>CheckWriterName</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckYouTubeLink()'><b>CheckYouTubeLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckadPartnerValue()'><b>CheckadPartnerValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckadblockerValue()'><b>CheckadblockerValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcategory_idValue()'><b>Checkcategory_idValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcategory_peopleValue()'><b>Checkcategory_peopleValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckcityValue()'><b>CheckcityValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkclient_ipValue()'><b>Checkclient_ipValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcountry_codeValue()'><b>Checkcountry_codeValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcountry_nameValue()'><b>Checkcountry_nameValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcurrent_blockValue()'><b>Checkcurrent_blockValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkdev_sourceValue()'><b>Checkdev_sourceValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckdomainValue()'><b>CheckdomainValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckfpValue()'><b>CheckfpValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkgoogle_entitiesValue()'><b>Checkgoogle_entitiesValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkinit_story_idValue()'><b>Checkinit_story_idValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checklanguage_EnglishValue()'><b>Checklanguage_EnglishValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckofcValue()'><b>CheckofcValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkpage_typeValue()'><b>Checkpage_typeValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkpage_urlValue()'><b>Checkpage_urlValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.CheckpeopleCata()'><b>CheckpeopleCata</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckpidValue()'><b>CheckpidValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.CheckpopularCategoriesLink()'><b>CheckpopularCategoriesLink</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkreferral_domainValue()'><b>Checkreferral_domainValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkstory_idValue()'><b>Checkstory_idValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkstory_tagsValue()'><b>Checkstory_tagsValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktotal_adsValue()'><b>Checktotal_adsValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktotal_blocksValue()'><b>Checktotal_blocksValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktree_idValue()'><b>Checktree_idValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckussValue()'><b>CheckussValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.Checkvideo2()'><b>Checkvideo2</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkvisit_blockValue()'><b>Checkvisit_blockValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkwriter_idValue()'><b>Checkwriter_idValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkwriter_nameValue()'><b>Checkwriter_nameValue</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.ClickAuthorName()'><b>ClickAuthorName</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.CatagoriesPageTestCasesTest.ClickHamburgerMenu()'><b>ClickHamburgerMenu</b><br>Test class: PoppleTestCases.CatagoriesPageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.CatagoriesPageTestCasesTest@4cc0edeb</td></tr>
+<tr>
+<td title='PoppleTestCases.FooterOptionTestCasesTest.ClickHamburgerMenu()'><b>ClickHamburgerMenu</b><br>Test class: PoppleTestCases.FooterOptionTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.FooterOptionTestCasesTest@457e2f02</td></tr>
+<tr>
+<td title='PoppleTestCases.SearchPageTestCasesTest.ClickSearchOption()'><b>ClickSearchOption</b><br>Test class: PoppleTestCases.SearchPageTestCasesTest</td>
+<td></td>
+<td>3</td>
+<td>PoppleTestCases.SearchPageTestCasesTest@39aeed2f</td></tr>
+<tr>
+<td title='PoppleTestCases.UserProfileTestCasesTest.LatestStories()'><b>LatestStories</b><br>Test class: PoppleTestCases.UserProfileTestCasesTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.UserProfileTestCasesTest@6767c1fc</td></tr>
+<tr>
+<td title='PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.OpenGoogleappsHar_analyzer()'><b>OpenGoogleappsHar_analyzer</b><br>Test class: PoppleTestCases.CaptureAndParsingHarFileForPixPngTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest@7823a2f9</td></tr>
+<tr>
+<td title='PoppleTestCases.StoryPageTestCasesTest.OpenStoryPage()'><b>OpenStoryPage</b><br>Test class: PoppleTestCases.StoryPageTestCasesTest</td>
+<td></td>
+<td>2</td>
+<td>PoppleTestCases.StoryPageTestCasesTest@724af044</td></tr>
+<tr>
+<td title='PoppleTestCases.HomePageTestCasesTest.QuizeFeedAuthor()'><b>QuizeFeedAuthor</b><br>Test class: PoppleTestCases.HomePageTestCasesTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.HomePageTestCasesTest@5c7fa833</td></tr>
+</table><p>
+</body>
+</html>

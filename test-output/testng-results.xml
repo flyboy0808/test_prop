@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28186" started-at="2018-12-11T16:09:58Z" finished-at="2018-12-11T16:10:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28186" started-at="2018-12-11T16:09:58Z" finished-at="2018-12-11T16:10:26Z">
+      <class name="PopplePages.CaptureHttpsTraffic">
+        <test-method status="PASS" signature="CreatHarFile()" name="CreatHarFile" duration-ms="28163" started-at="2018-12-11T16:09:58Z" finished-at="2018-12-11T16:10:26Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
